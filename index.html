@@ -1,0 +1,13 @@
+<html>
+<body>
+<script src="https://sdk.push7.jp/v2/p7sdk.js"></script>
+<script>
+var id;
+while ( ! id || id.length == 0) {
+  id = prompt('App Number', '');
+}
+p7.init(id);
+</script>
+<div class="p7button" data-button-text="購読する"></div>
+</body>
+</html>
